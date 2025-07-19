@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36203.30
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyDesignPattern.Before", "StrategyDesignPattern.Before\StrategyDesignPattern.Before.csproj", "{90C1D9CB-ED8C-047F-C0CF-F772650F22BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyDesignPattern.After", "StrategyDesignPattern.After\StrategyDesignPattern.After.csproj", "{ACE505FB-BD6D-AB49-5114-AA1EA28B0E06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethodDesignPattern.Before", "TemplateMethodDesignPattern.Before\TemplateMethodDesignPattern.Before.csproj", "{43E17F45-C202-1CEA-9FB4-78E8ED09B64A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethodDesignPattern.After", "TemplateMethodDesignPattern.After\TemplateMethodDesignPattern.After.csproj", "{330CB3C4-887B-148B-E609-2F355A177D04}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Strategy", "Strategy", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		Diagrams\Strategy\BeforeStrategy.png = Diagrams\Strategy\BeforeStrategy.png
+		Diagrams\Strategy\StrategyMessageBuilder.png = Diagrams\Strategy\StrategyMessageBuilder.png
+		Diagrams\Strategy\StrategyTransmitter.png = Diagrams\Strategy\StrategyTransmitter.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TemplateMethod", "TemplateMethod", "{2314F57F-7BC8-4E2D-901A-E163C241BDC1}"
+	ProjectSection(SolutionItems) = preProject
+		Diagrams\TemplateMethod\BeforeTemplateMethod.png = Diagrams\TemplateMethod\BeforeTemplateMethod.png
+		Diagrams\TemplateMethod\TemplateMethod.png = Diagrams\TemplateMethod\TemplateMethod.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Diagrams", "Diagrams", "{F4EA0735-8284-4733-A0BA-67846343DD95}"
+	ProjectSection(SolutionItems) = preProject
+		Diagrams\InfrastructureDiagram.png = Diagrams\InfrastructureDiagram.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90C1D9CB-ED8C-047F-C0CF-F772650F22BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90C1D9CB-ED8C-047F-C0CF-F772650F22BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90C1D9CB-ED8C-047F-C0CF-F772650F22BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90C1D9CB-ED8C-047F-C0CF-F772650F22BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACE505FB-BD6D-AB49-5114-AA1EA28B0E06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACE505FB-BD6D-AB49-5114-AA1EA28B0E06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACE505FB-BD6D-AB49-5114-AA1EA28B0E06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACE505FB-BD6D-AB49-5114-AA1EA28B0E06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43E17F45-C202-1CEA-9FB4-78E8ED09B64A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43E17F45-C202-1CEA-9FB4-78E8ED09B64A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43E17F45-C202-1CEA-9FB4-78E8ED09B64A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43E17F45-C202-1CEA-9FB4-78E8ED09B64A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{330CB3C4-887B-148B-E609-2F355A177D04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{330CB3C4-887B-148B-E609-2F355A177D04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{330CB3C4-887B-148B-E609-2F355A177D04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{330CB3C4-887B-148B-E609-2F355A177D04}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{02EA681E-C7D8-13C7-8484-4AC65E1B71E8} = {F4EA0735-8284-4733-A0BA-67846343DD95}
+		{2314F57F-7BC8-4E2D-901A-E163C241BDC1} = {F4EA0735-8284-4733-A0BA-67846343DD95}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9E85A9E0-FE59-4335-B34C-72D188B1B8EA}
+	EndGlobalSection
+EndGlobal
