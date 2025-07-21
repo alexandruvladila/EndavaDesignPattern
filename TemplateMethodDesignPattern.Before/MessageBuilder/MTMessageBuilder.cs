@@ -2,7 +2,7 @@ using System;
 
 namespace StrategyDesignPattern.After
 {
-    public class TMMessageBuilder : IMessageBuilder
+    public class MTMessageBuilder : IMessageBuilder
 	{
         public Message Build(string data)
 		{

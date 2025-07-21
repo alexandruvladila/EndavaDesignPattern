@@ -18,7 +18,7 @@ namespace StrategyDesignPattern.After
 			var builders = new Dictionary<string, IMessageBuilder>
 			{
 				{ "DMP", new DMPMessageBuilder() },
-				{ "MdT", new TMMessageBuilder() }
+				{ "MdT", new MTMessageBuilder() }
 			};
 
 			var transmitters = new Dictionary<string, IMessageTransmitter>
